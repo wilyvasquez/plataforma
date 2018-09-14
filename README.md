@@ -10,6 +10,8 @@ Instalacion
 *******************
 
 1.- Xampp
+
 2.- bower_componentes
+
 3.- bootstrap 3.3.7
 
