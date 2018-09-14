@@ -1,0 +1,15 @@
+{
+  "name": "suzuki",
+  "homepage": "https://github.com/wilyvasquez/plataforma",
+  "description": "control de creditos y cotizaciones",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
