@@ -1,6 +1,6 @@
-###################
+*******************
 Plataforma Suzuki
-###################
+*******************
 
 Sistema realizado con el framework codeigniter y bootstrap para el registro, control de los creditos
 cotizaciones.
