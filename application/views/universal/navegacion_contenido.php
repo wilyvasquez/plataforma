@@ -3,12 +3,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Fixed Layout
-        <small>Blank example to the fixed layout</small>
+        <?= $title ?>
+        <small><?= $subtitle ?></small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Layout</a></li>
+        <li><a href="#"><i class="fa fa-motorcycle"></i> Principal</a></li>
+        <li><a href="#"><?= $title ?></a></li>
         <li class="active">Fixed</li>
       </ol>
     </section>

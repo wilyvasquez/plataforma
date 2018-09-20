@@ -1,40 +1,40 @@
 <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
-        <li class="header">MAIN NAVIGATION</li>
-        <li class="treeview">
+        <li class="header" style="text-align: center;">PRINCIPAL</li>
+        <li class="<?php if(!empty($dashboard)) echo $dashboard ?>">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <i class="fa fa-motorcycle"></i> <span>Dashboard</span>
+          </a>
+        </li>
+        <li class="<?php if(!empty($calendario)) echo $calendario ?>">
+          <a href="#">
+            <i class="fa fa-calendar"></i> <span>Calendario</span>
+          </a>
+        </li>
+        <li class="header" style="text-align: center;">MENU NAVEGACION</li>
+        <li class="treeview <?php if(!empty($clientes)) echo $clientes ?>">
+          <a href="#">
+            <i class="fa fa-users"></i> <span>Clientes</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Registro</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Agregar</a></li>
           </ul>
         </li>
-        <li class="treeview active">
+        <li class="treeview <?php if(!empty($reportes)) echo $reportes ?>">
           <a href="#">
-            <i class="fa fa-files-o"></i>
-            <span>Layout Options</span>
+            <i class="fa fa-folder-open"></i> <span>Reportes</span>
             <span class="pull-right-container">
-              <span class="label label-primary pull-right">4</span>
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="../layout/top-nav.html"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
-            <li><a href="../layout/boxed.html"><i class="fa fa-circle-o"></i> Boxed</a></li>
-            <li class="active"><a href="../layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
-            <li><a href="collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Registro</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Agregar</a></li>
           </ul>
-        </li>
-        <li>
-          <a href="../widgets.html">
-            <i class="fa fa-th"></i> <span>Widgets</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
-            </span>
-          </a>
         </li>
       </ul>
     </section>
