@@ -7,6 +7,7 @@
 	$this->load->view('universal/cerrar_session');
 	$this->load->view('universal/header_menu');
 	$this->load->view($menu);
+	$this->load->view('universal/navegacion_contenido');
 	$this->load->view($contenido);
 	$this->load->view('universal/footer');
 ?>
