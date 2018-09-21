@@ -56,3 +56,4 @@ $route['translate_uri_dashes'] = FALSE;
 /*rutas creditos*/
 $route['creditos'] = 'CtrCreditos/index';
 $route['perfil']   = 'CtrCreditos/perfil_cliente';
+$route['pagos']    = 'CtrCreditos/pagos';

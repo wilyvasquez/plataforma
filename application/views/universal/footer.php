@@ -39,7 +39,19 @@
       'searching'   : true,
       'ordering'    : false,
       'info'        : false,
-      'autoWidth'   : false
+      'autoWidth'   : false,
+      "lengthMenu": [[12, 24], [12, 24]],
+      "language": {
+          "zeroRecords": "No se encontraron datos",
+          "infoEmpty": "No se encontraron datos",
+          "search": "Buscar",
+        "paginate": {
+          "first":      "Primero",
+          "last":       "Ultimo",
+          "next":       "Siguiente",
+          "previous":   "Anterior"
+        }
+      },
     })
   })
 </script>

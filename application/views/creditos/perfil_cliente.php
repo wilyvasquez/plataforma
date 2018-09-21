@@ -95,7 +95,7 @@
                   <div class="user-block">
                     <img class="img-circle img-bordered-sm" src="<?= base_url() ?>assets/img/user1-128x128.jpg" alt="user image">
                         <span class="username">
-                          <a href="#">Motocicleta V-Strom 650 XT 2018.</a>
+                          <a href="<?= base_url() ?>pagos">Motocicleta V-Strom 650 XT 2018.</a>
                           <!-- <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a> -->
                         </span>
                     <span class="description">Credito generado - 21/sep/2018 7:30 PM today</span>
@@ -118,7 +118,7 @@
                   <div class="user-block">
                     <img class="img-circle img-bordered-sm" src="<?= base_url() ?>assets/img/user7-128x128.jpg" alt="User Image">
                         <span class="username">
-                          <a href="#">Motocicleta Gixxer SF FI 2018</a>
+                          <a href="<?= base_url() ?>pagos">Motocicleta Gixxer SF FI 2018</a>
                           <!-- <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a> -->
                         </span>
                     <span class="description">Credito generado - 21/sep/2018 3 days ago</span>

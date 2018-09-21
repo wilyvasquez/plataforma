@@ -23,4 +23,14 @@ class CtrCreditos extends CI_Controller {
 		$this->load->view('universal/plantilla',$data);
 	}
 
+	public function pagos()
+	{
+		$data["clientes"]  = "active";
+		$data["title"]     = "Pagos del cliente";
+		$data["subtitle"]  = "Registros de los pagos";
+		$data["contenido"] = "creditos/pagos";
+		$data["menu"]      = "creditos/menu_creditos";
+		$this->load->view('universal/plantilla',$data);
+	}
+
 }
