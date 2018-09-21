@@ -13,16 +13,4 @@ class CtrCreditos extends CI_Controller {
 		$this->load->view('universal/plantilla',$data);
 	}
 
-	function array_credito()
-	{
-		$data = array(
-			'registro'  => "principal", 
-			'activos'   => "acredito", 
-			'pausados'  => "pcredito", 
-			'atrasados' => "atcredito",
-			'perfil'    => "Creditos",
-			'detalle'   => "pagos",
-		);
-		return $data;
-	}
 }
