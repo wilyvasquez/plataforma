@@ -54,4 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 /*rutas creditos*/
-$route['credito']          = 'CtrCreditos/index';
+$route['creditos'] = 'CtrCreditos/index';
+$route['perfil']   = 'CtrCreditos/perfil_cliente';

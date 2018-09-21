@@ -10,7 +10,7 @@
       <div class="icon">
         <i class="ion ion-ios-people"></i>
       </div>
-      <a href="#" class="small-box-footer">Mas Informacion <i class="fa fa-arrow-circle-right"></i></a>
+      <a href="#" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
     </div>
   </div>
   <!-- ./col -->
@@ -25,7 +25,7 @@
       <div class="icon">
         <i class="ion ion-person-add"></i>
       </div>
-      <a href="#" class="small-box-footer">Mas Informacion <i class="fa fa-arrow-circle-right"></i></a>
+      <a href="#" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
     </div>
   </div>
   <!-- ./col -->
@@ -40,7 +40,7 @@
       <div class="icon">
         <i class="ion ion-sad"></i>
       </div>
-      <a href="#" class="small-box-footer">Mas Informacion <i class="fa fa-arrow-circle-right"></i></a>
+      <a href="#" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
     </div>
   </div>
   <!-- ./col -->
@@ -55,7 +55,7 @@
       <div class="icon">
         <i class="ion ion-alert-circled"></i>
       </div>
-      <a href="#" class="small-box-footer">Mas Informacion <i class="fa fa-arrow-circle-right"></i></a>
+      <a href="#" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
     </div>
   </div>
   <!-- ./col -->
@@ -92,7 +92,7 @@
               <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
             </td>
             <td>
-              <a href="#" class="btn btn-block btn-info btn-xs">Más</a>
+              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
             </td>
           </tr>
           <tr>
@@ -106,7 +106,7 @@
               <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
             </td>
             <td>
-              <a href="#" class="btn btn-block btn-info btn-xs">Más</a>
+              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
             </td>
           </tr>
           <tr>
@@ -118,7 +118,7 @@
               <span class="label" style="background: #EC6E42 ">ATRASADO</span>
             </td>
             <td>
-              <a href="#" class="btn btn-block btn-info btn-xs">Más</a>
+              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
             </td>
           </tr>
           <tr>
@@ -130,7 +130,7 @@
               <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
             </td>
             <td>
-              <a href="#" class="btn btn-block btn-info btn-xs">Más</a>
+              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
             </td>
           </tr>
           <tr>
@@ -142,7 +142,7 @@
               <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
             </td>
             <td>
-              <a href="#" class="btn btn-block btn-info btn-xs">Más</a>
+              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
             </td>
           </tr>
           <tr>
@@ -154,7 +154,7 @@
               <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
             </td>
             <td>
-              <a href="#" class="btn btn-block btn-info btn-xs">Más</a>
+              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
             </td>
           </tr>
           <tr>
@@ -166,7 +166,7 @@
               <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
             </td>
             <td>
-              <a href="#" class="btn btn-block btn-info btn-xs">Más</a>
+              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
             </td>
           </tr>
           <tr>
@@ -178,7 +178,7 @@
               <span class="label" style="background: #EC6E42 ">ATRASADO</span>
             </td>
             <td>
-              <a href="#" class="btn btn-block btn-info btn-xs">Más</a>
+              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
             </td>
           </tr>
           <tr>
@@ -190,7 +190,7 @@
               <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
             </td>
             <td>
-              <a href="#" class="btn btn-block btn-info btn-xs">Más</a>
+              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
             </td>
           </tr>
           </tbody>

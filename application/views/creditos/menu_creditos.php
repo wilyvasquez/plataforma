@@ -20,7 +20,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Registro</a></li>
+            <li><a href="creditos"><i class="fa fa-circle-o"></i> Registro</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i> Nuevo</a></li>
           </ul>
         </li>
