@@ -3,6 +3,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class CtrCreditos extends CI_Controller {
 
+	function __construct(){
+		parent::__construct();
+		$this->load->model('ModelCreditos/ModeloCreditos');
+	}
+
 	public function index()
 	{
 		$data["clientes"]  = "active";
@@ -30,6 +35,8 @@ class CtrCreditos extends CI_Controller {
 		$data["subtitle"]  = "Registros de los pagos";
 		$data["contenido"] = "creditos/pagos";
 		$data["menu"]      = "creditos/menu_creditos";
+
+		// $this->Modelocreditos->pagos();
 		$this->load->view('universal/plantilla',$data);
 	}
 
