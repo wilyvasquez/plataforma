@@ -15,7 +15,7 @@ class CtrCreditos extends CI_Controller {
 		$data["subtitle"]  = "Registros de clientes y créditos";
 		$data["contenido"] = "creditos/creditos";
 		$data["menu"]      = "creditos/menu_creditos";
-		$data["clientes"]  = $this->creditos_model->clientes();
+		$data["rclientes"] = $this->creditos_model->clientes();
 		$this->load->view('universal/plantilla',$data);
 	}
 

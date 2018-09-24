@@ -81,9 +81,9 @@
           </tr>
           </thead>
           <tbody>
-          <?php if(!empty($clientes)) {
+          <?php if(!empty($rclientes)) {
           $i = 1;
-          foreach ($clientes ->result() as $cliente) { ?>
+          foreach ($rclientes ->result() as $cliente) { ?>
           <tr>
             <td><?= $cliente->nombre ?></td>
             <td>Internet
