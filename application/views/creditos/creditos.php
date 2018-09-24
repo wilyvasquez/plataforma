@@ -81,8 +81,11 @@
           </tr>
           </thead>
           <tbody>
+          <?php if(!empty($clientes)) {
+          $i = 1;
+          foreach ($clientes ->result() as $cliente) { ?>
           <tr>
-            <td>Trident</td>
+            <td><?= $cliente->nombre ?></td>
             <td>Internet
               Explorer 4.0
             </td>
@@ -95,104 +98,7 @@
               <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
             </td>
           </tr>
-          <tr>
-            <td>Trident</td>
-            <td>Internet
-              Explorer 6
-            </td>
-            <td>Win 98+</td>
-            <td>6</td>
-            <td>
-              <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
-            </td>
-            <td>
-              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Trident</td>
-            <td>Internet Explorer 7</td>
-            <td>Win XP SP2+</td>
-            <td>7</td>
-            <td>
-              <span class="label" style="background: #EC6E42 ">ATRASADO</span>
-            </td>
-            <td>
-              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Trident</td>
-            <td>AOL browser (AOL desktop)</td>
-            <td>Win XP</td>
-            <td>6</td>
-            <td>
-              <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
-            </td>
-            <td>
-              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Gecko</td>
-            <td>Firefox 1.0</td>
-            <td>Win 98+ / OSX.2+</td>
-            <td>1.7</td>
-            <td>
-              <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
-            </td>
-            <td>
-              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Gecko</td>
-            <td>Firefox 1.5</td>
-            <td>Win 98+ / OSX.2+</td>
-            <td>1.8</td>
-            <td>
-              <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
-            </td>
-            <td>
-              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Gecko</td>
-            <td>Firefox 2.0</td>
-            <td>Win 98+ / OSX.2+</td>
-            <td>1.8</td>
-            <td>
-              <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
-            </td>
-            <td>
-              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Gecko</td>
-            <td>Firefox 3.0</td>
-            <td>Win 2k+ / OSX.3+</td>
-            <td>1.9</td>
-            <td>
-              <span class="label" style="background: #EC6E42 ">ATRASADO</span>
-            </td>
-            <td>
-              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Gecko</td>
-            <td>Camino 1.0</td>
-            <td>OSX.2+</td>
-            <td>1.8</td>
-            <td>
-              <span class="label" style="background: #63B45E ">CUMPLIENDO</span>
-            </td>
-            <td>
-              <a href="perfil" class="btn btn-block btn-info btn-xs">Más</a>
-            </td>
-          </tr>
+          <?php $i++; } }  ?>
           </tbody>
           <tfoot>
           <tr>

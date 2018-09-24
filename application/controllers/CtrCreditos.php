@@ -5,7 +5,7 @@ class CtrCreditos extends CI_Controller {
 
 	function __construct(){
 		parent::__construct();
-		$this->load->model('ModelCreditos/ModeloCreditos');
+		$this->load->model('creditos_model');
 	}
 
 	public function index()
@@ -15,6 +15,7 @@ class CtrCreditos extends CI_Controller {
 		$data["subtitle"]  = "Registros de clientes y créditos";
 		$data["contenido"] = "creditos/creditos";
 		$data["menu"]      = "creditos/menu_creditos";
+		$data["clientes"]  = $this->creditos_model->clientes();
 		$this->load->view('universal/plantilla',$data);
 	}
 
